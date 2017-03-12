@@ -1,0 +1,132 @@
+American surgeons in the late 1800s prided themselves on wearing blood-stained coats. It was the symbol of a busy practice. Atul Gawande wrote about this tradition in an article for The New Yorker: Surgeons soaked their instruments in carbolic acid, but they continued to operate in black frock coats stiffened with the blood and viscera of previous operations...Instead of using fresh gauze as sponges, they reused sea sponges without sterilizing them. After researchers proved the life-saving benefits of antiseptics, it took almost a century for most doctors to start scrubbing their hands and sterilizing their instruments. Today, of course, a surgeon prides herself on wearing a sparkling clean, white coat. The point isn't to pick on healthcare professionals. Over the course of two centuries, the most widespread beliefs in any profession are likely to change — even flip entirely. To quote the great computer scientist Marvin Minsky: All knowledge has a half-life: the time it takes for what you know to become wrong or redundant. As a thought experiment, imagine you're walking in the shoes of someone who's doing your job 25, 50 or 100 years from now. Speaking or writing from this person's perspective, describe a belief that's widely accepted in 2017, but obviously wrong in the future. Why did this belief change and what idea took its place? Here's what I think a software engineer in 2042 might say: In 2017, consumers could speak to devices with human-like personalities, but few of the personal assistants had persistent emotional states. In fact, it was funny to think about a device expressing emotion. In the following decades, software engineers recognized the utility of feelings. Today many consumer devices have emotional profiles that persist from one interaction to the next. Here are three practical reasons we incorporate emotion into consumer AI: Understanding: Emotional affect makes it easier for us to derive meaning from language. For example, imagine that someone approaches you and makes the following statements with an identical tone and emotional affect. It would probably take you longer to parse and react to the messages:"The house is on fire.""I love you." "Would you like a piece of cake?"
+Purpose & Meaning: Our interactions with other humans have purpose because we know that the things we say and the choices we make have lasting emotional impacts. Giving machines an emotional state — albeit a very simplified, virtual one — makes us value our interactions with them.
+Awareness of Environment: Emotions such as fear and anxiety help machines to navigate their environment safely. For example, the ability to experience pain related to pressure and heat helps a robot in a factory avoid dangerous obstacles. This discovery dates back to 2016, when German engineers developed an artificial nervous system.I love to converse with devices like the Amazon Alexa and Google Home. I can check the weather, call an Uber or order a pizza simply by speaking.
+
+Despite their intuitiveness, you won't find voice commands in many web applications. There are good reasons for this — lack of browser compatibility, difficulty of parsing natural language, etc.
+
+That said, I still think the browser Speech Recognition APIs are an underused resource. For example, it might be intuitive to perform actions on a data table — sorting, filtering, etc. — by telling the table how data should be visualized.
+
+I took a crack at building a general-purpose JavaScript module for attaching functions to voice commands. Here's how to implement it: My favorite part of traveling is conversing with the locals. I'm visiting family in North Carolina for Christmas, and today we stopped to ask a hotel employee for restaurant advice. I enjoyed listening to his unique Southern drawl and the idioms he used to describe Asheville ("More barbecue spots than you can shake a stick at"). I started thinking about an app for collecting records of these encounters.
+
+I did a quick comparative analysis of existing apps for travel storytelling. Dozens of beautifully designed apps exist, but most of them focus on your experience. Let's explore an idea for curating the stories of characters you meet on the road. I would consider these goals as a starting point for the user experience:
+
+Give travelers a greater sense of purpose. The app should make you feel as if you have a mission in each city you visit.
+Create opportunities for interacting with locals and hearing their stories. The app should take some of the awkwardness out of starting conversations with strangers.
+Highlight and celebrate cultural differences. Curate images and audio of people around the world discussing issues that matter to them.
+My target persona — let's call her Jane — is an American between the ages of 23 and 40. Jane lives in a major U.S city and travels domestically (for business or pleasure) at least once a month. She enjoys using her phone to record the places she visits. (I'm focusing on the U.S. simply to limit scope for now, but I would eventually roll this out for all marketplaces.)
+
+This may sound silly, but my initial inspiration came from Pokémon. I like how the Pokédex — a sort of journal for keeping track of the virtual characters you discover — motivates players to keep exploring. I imagine a similar concept, but instead of Pokémon, the user would collect snippets of conversation.
+
+Conversation prompts would appear as Jane traveled through different areas. They would be topics of local relevance. The traveler would tap the prompt and record a 30-second video clip of a local discussing it.
+
+Here are the biggest design and user-experience challenges:
+
+Social awkwardness. Most people find it very difficult to converse with strangers. How would the app put both the traveler and the local interviewee at ease?
+Finding appropriate topics of conversation. Ideally, the app should display topics that are interesting, but not overly controversial. The app might solve this problem by letting the user set preferences for what she feels comfortable discussing. To ensure that prompts were culturally appropriate, it could also allow local interviewees to submit and curate them.
+Developing a "conversational scavenger hunt" would be challenging. The biggest issues have to do with curating content and helping users overcome shyness. If the app solved these problems, it could enhance the travel experience, giving users an excuse to meet new people and record interesting mementos of different cultures. For employees who receive stock-based pay, the task of managing Restricted Stock Units (RSUs) or options can be fraught with emotion. It’s natural to have strong feelings about the business where you spend much of your time and speculate about its future performance.
+
+As with many issues in personal finance, there’s no “right” way to invest in your company’s stock because the answer depends on your situation. But there are healthy and not-so-healthy ways to approach the problem. Let’s take a step back from emotion and speculation. Here are 8 steps to consider when you’re exploring the role of an employer’s stock in your portfolio:
+
+1. Start with your goals
+
+This may sound obvious, but it’s helpful to know exactly why you’re investing before you start thinking about asset allocation. Many people find it useful to list their big-ticket future expenses — retirement, a child’s education, etc. — along with due dates and dollar amounts needed.
+
+2. Quantify your squeamishness
+
+Your employer’s stock is only one part of the equation. First consider your overall appetite for risk as it relates to your goals and your temperament. Many financial institutions including Fidelity and Vanguard offer quizzes to help you get a feel for how much volatility you can handle.
+
+3. Pinpoint the overall blend
+
+Once you know your goals and risk tolerance, you can find the mix of assets that fits your situation. This may include U.S. and international equities, bonds and alternatives such as commodities or real estate. If your main goal is retirement, you might want to research a sample of target-date funds for people in your age group to see how they’re constructed.
+
+4. Have a written philosophy
+
+The strategy of passive investing — buying and holding low-cost index funds — works best for the majority of personal investors. Picking any individual stock is generally riskier than investing in a broadly diversified index fund. Write down your policy concerning individual stock investments. Don’t make an exception for your employer based on personal bias.
+
+5. Understand laws and corporate policies
+
+Ask your employer if you're subject to insider trading policies or other regulations that affect your ability to buy or sell the stock. Remember that you may never trade based on privileged or non-public information. When in doubt, speak with a qualified attorney.
+
+6. Develop a tax strategy
+
+Meet with an accountant or do your own research to develop a tax-efficient trading strategy. The size of your tax bill can vary a lot depending on when and how you sell.
+
+7. Know how much space belongs to company stock
+
+After picking an asset blend and settling on your philosophy, you’ll know what percentage of your portfolio — if any — should be dedicated to individual stocks and to U.S. firms in particular. Your employer’s equity lives within this space.
+
+8. Rebalance
+
+Rebalance regularly in accordance with your personal tax strategy. This can be painful if the shares are doing well, but it’s essential to maintaining your desired level of risk.
+
+There’s no sure-fire solution for investing in your employer’s stock because the right approach depends on your situation. Having said that, it’s critical to distance yourself from emotion and speculation. Instead of buying or selling shares based on expected performance, first consider your personal goals and risk tolerance. A strong asset allocation model takes some of the guesswork out of managing equity, allowing your employer's stock to serve as one slice of a balanced portfolio.
+
+In his book Boomerang, Michael Lewis investigates Iceland's 2008 investment banking bubble. Like Wall St., the banking industry in Iceland is predominately male. Lewis explores the correlation between gender and financial judgement. He describes a study by researchers at the University of California, Berkeley, that analyzed the trading activity of 35,000 households:
+
+What they found, in a nutshell, is that men not only trade more than women but do so from a false faith in their own financial judgement. Single men traded less sensibly than married men, and married men traded less sensibly than single women: the less the female presence, the less rational the approach to trading in the markets.
+
+It's hard to say if gender causes rational or irrational trading based on the evidence Lewis presents, but there's at least a strong correlation.
+
+Imagine you need to compare a user's text input to a large dataset of text on the client-side. Examples include:
+
+You're building a service that shows instant personalized recommendations as the user types. The service compares each word of their input to a set of keywords.
+You're making a custom spell checking or translation service. It should rapidly validate user input against natural language dictionaries.
+You could iterate through an array of keywords, but the linear approach gets expensive. Let's say a user types 500 words. Checking each word against the Second Edition of the Oxford English dictionary requires 85.738 million operations per keystroke.
+
+It's faster to store the words in a radix tree. With this data structure you can check strings in constant time. Finding a string in a set of 500,000 keywords requires the same number of operations as finding it in a set of 500 keywords.
+
+Radix trees also consume less memory in the browser. If 5,000 English words start with an "a," the tree only stores one "a." Words can share all the letters they have in common. Unfortunately I don't have time to run an experiment for this post, but a few years ago I converted a plain English dictionary object to a radix tree and it reduced the size by at least 25%.
+
+On September 17th 2013, I invested $520,500 in AirEMU (EMU), a European aircraft manufacturer. I was confident EMU shares would perform well in the 5 hours that followed. Still, my chest felt tense when I realized that my life savings hinged on a single trade. I went to the kitchen to grab a glass of ice water. Three hours later there was an unexpected disaster: four AirEMU aircraft were destroyed in a runway accident. EMU took a beating from $24.55 to $15 and it kept dropping. Before the stock rebounded I panicked and sold my shares, plummeting $343,232 into the red. I had no choice but to restart from a checkpoint.
+
+When I started playing Grand Theft Auto V last year, I found the in-game stock market to be as interesting as the main storyline. Players worldwide influence stock movement through their in-game trading behavior. My stint as an unsuccessful GTA5 investor led me to buy stocks (in a much smaller quantity) in the real world. Part of it was just a coincidence — the game launched around the time I started a new job and had to make investment decisions — but it was also about experimentation. Through GTA5's economy I developed a personal investing style without taking on any real risk. Unlike in standalone stock market simulators, the virtual dollars unlocked something. I could buy boats, helicopters and dozens of other items.
+
+Despite the occasional $520k leap of faith, my behavior in video game economies tends to be conservative, mirroring the way I save and invest in real life. In Fallout New Vegas I fought hard for the Fat Man, a rare gun that fires mini atomic bombs. I finally found the weapon, yet I played through the storyline without firing it. Todd Howard, the game's creative director, acknowledged this behavior during a speech. He said he likes to give players an overpowered weapon in case they get stuck, but many people don't use it. They fear that if they tap into their resource prematurely, they'll regret it when a bigger, badder challenge pops up. I subconsciously channeled this logic when I was managing my first emergency fund.
+
+Playing video games since I was 8 or 9 has shaped the way I think about money. Kids' games like Super Mario 64 and Tony Hawk's Pro Skater introduced me to simple economies based on collecting stars and managing skateboard inventories. Years later the Fallout series inspired me to boost my cash reserve. Losing half a million in GTA5 cranked down my risk tolerance. I haven't seen research that explores how games affect adolescents' perception and understanding of money. Based on my experience, which I don't think is unique, role-playing games can be a teaching tool for finance. I mean mainstream games that feature economies rather than games that are mock economies.
+
+Games are a unique teaching tool. They simulate the social and emotional aspects of investing that are so hard to fathom until you become an adult who puts money at risk.To document important meetings, most people write notes or they use a voice recorder. Voice recorders capture a speaker's exact phrasing, but no one wants to sift through 60 minutes of audio to pinpoint action items. Written notes are more concise and the act of writing helps you remember, but it also pulls you out of the moment.
+
+I propose an open-source tool that would offer the best of both worlds: combining the thorough detail of audio with the sharper focus of written notes. Yesterday I made a technical proof of concept, tentatively called RetroRecorder, to illustrate this. What makes RetroRecorder different is that it doesn't record what's happening now; it travels back in time to capture only what's relevant to you. How It Works
+
+Sitting down at the start of a lengthy meeting, you open RetroRecorder and press Start Session. Unlike a Record button, this does not mean audio is being saved; it just tells the app that a meeting is in progress.
+Fifteen minutes into the meeting you overhear a comment or action item that applies directly to you. To help yourself remember it, you push the Save Last 30 Seconds button. The previous 30 seconds of audio will be permanently saved.
+Forty-five minutes into the meeting a co-worker references your project. You press Save Last 60 Seconds in the app to permanently save his or her train of thought.
+When the meeting concludes you press End Session. In total you have recorded 90 seconds of audio: the clips directly relevant to you. With a traditional recorder you would have captured over 45 minutes of audio that required post-meeting review. After you select Start Session, RetroRecorder captures a continuous stream of audio. You might think of this as the Stream of Consciousness (cheesy pun intended). To preserve memory on the device, the audio is split into chunks based on time and chunks older than 5 minutes are frequently removed. This means that at any point in time while a session is active, the previous 5 minutes of the discussion exist in memory.
+
+When you hear a pertinent comment, you can push Save Last x Seconds — x is any period of time less than or equal to 5 minutes — to copy the audio content into Permanent Storage. The sound in Permanent Storage is combined into a single audio track that can be shared and replayed. Essentially it lets you compile a clip of relevant audio during the meeting instead of editing afterwards. Imagine you're rushing to catch a train.
+
+While you're walking you open a mobile banking app to get a glimpse of your checking and savings accounts. Once you're seated on the train you hold the phone in your lap to perform more complex tasks: reviewing a portfolio, transferring money, etc. Leaving the station, you walk into your office and place your phone facedown on a conference table.
+
+This use case can be broadly described as "mobile," but it encompasses three unique contexts:
+
+Browsing while you walk
+Performing detailed actions while seated
+Disengaging the app
+The gyroscopes that tell native and web-based apps how a user is moving are nothing new, but few apps derive UX intelligence from the sensors. Imagine how we might change an interface to accommodate a customer in each situation:
+
+Browsing while you walk: Call attention to a high-level overview of accounts. Deemphasize buttons for complicated financial transactions.
+
+Performing tasks while seated: Expose the more complicated options along with account information that requires extra reading.
+
+Disengaging the app: If we know a customer is inactive because her phone is facedown on a table, we might expedite the session timeout for security purposes.
+
+These examples are purely illustrative. In a real setting we would research the customer's goals for each context instead of making blind assumptions.
+
+Although gyroscopes and the Device Orientation API are an old feature of the mobile Web, I haven't seen any apps source them for UX intel. Slicing mobile into specific contexts based on the user's body motion, we can create a more frictionless experience for customers on the go.
+If you're like most consumers, you've shared your physical address with dozens of businesses. We're used to divulging the private data anytime we send or receive mail, but is it really necessary?
+
+If it were feasible not to share our addresses when ordering an item, many of us would probably opt out. Sharing your physical address is inefficient and potentially unsafe. Places of residence become outdated as we move, causing mail to arrive late or not at all. Criminals can also use addresses as ammunition for identity theft or fraud. P.O. Boxes and temporary storage lockers offer a little more security, but they're still inconvenient.
+
+I'm not an expert on shipping, but as a customer I think we can do better. Here's what I see as the root of the problem:
+
+In a perfect world, we wouldn't have to divulge a physical address to send or receive mail.
+
+Online retailers only need to know who is receiving a package. They shouldn't be responsible for collecting, safeguarding and validating addresses for every customer. Putting that burden on the business is a lose-lose-lose situation: it's a liability to the company, the customer and the postal service.
+
+An idea for managing addresses differently
+
+The customer registers an address or multiple addresses with a central authority such as the U.S. Postal Service. The system assigns her a unique "Mail ID."
+When the customer makes a purchase, she provides the Mail ID instead of her private address. (If you're familiar with payment tokenization, compare this to how online merchants store "tokens" instead of credit card numbers.)
+Receiving a package from the retailer, the postal service maps the Mail ID to an address on file. Ideally postal services could share an API, querying Mail IDs created by each other, so that the customer would only have to remember one ID.
+A web UI for mapping your "Mail ID" to addresses might allow for cool features like custom filtering. Imagine setting up rules for physical mail that are similar to the custom email filters in Gmail.
